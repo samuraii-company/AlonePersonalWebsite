@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import styled from 'styled-components'
+import Stack from '../components/Stack'
 
 function HomePage() {
   return (
@@ -10,6 +11,7 @@ function HomePage() {
         <Header />
         <Hero />
         <About />
+        <Stack />
       </Home>
 
   )

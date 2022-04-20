@@ -18,7 +18,7 @@ function About() {
                 <img src="images/about.webp" alt="" />
             </div>
             <div className="rigth-side">
-                <h1>Full-Stack developer,
+                <h1 className="info">Full-Stack developer,
                 with extensive knowledge and years of experience,
                 working in web technologies</h1>
                 <div className="exp-wrapper">
@@ -119,13 +119,14 @@ const Container = styled.div`
                 margin: 30px 0;
             }
 
-            h1{
+            .info{
                 font-style: normal;
                 font-weight: 600;
                 font-size: 14px;
                 letter-spacing: 0.2px;
                 color: #959595;
                 max-width: 400px;
+                margin-left: 20px;
                 @media(max-width: 470px) {
                     max-width: 350px;
                 }
@@ -177,6 +178,7 @@ const Container = styled.div`
             button{
                 margin-top: 60px;
                 max-width: 145px;
+                margin-left: 20px;
                 background:#FFA97A;
                 color: black;
                 min-width: 135px;

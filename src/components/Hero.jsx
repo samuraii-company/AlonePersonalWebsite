@@ -33,7 +33,6 @@ const Container = styled.div`
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    background: #111A20;
     .wrapper{
         .hero_text{
             display: flex;
