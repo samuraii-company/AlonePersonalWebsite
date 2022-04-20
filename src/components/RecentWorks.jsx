@@ -1,0 +1,220 @@
+import React from 'react'
+import styled from 'styled-components'
+import WebIcon from '@mui/icons-material/Web';
+import SmartToyIcon from '@mui/icons-material/SmartToy';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
+function RecentWorks() {
+
+    const [firstBtn, setFirstBtn] = React.useState(1)
+
+    function web_works(){
+        const web = document.getElementById('web');
+        const bots = document.getElementById('bots');
+        web.style.display = "flex";
+        bots.style.display = "none";
+    }
+    
+    function bots_works(){
+        const web = document.getElementById('web');
+        const bots = document.getElementById('bots');
+        web.style.display = "none";
+        bots.style.display = "flex";
+    }
+
+    return (
+     <Container>
+        <div className="text-wrapper">
+            <h1>Recent Works</h1>
+            <h2>My Portfolio</h2>
+        </div>
+        <div className="btn-wrapper">
+            <button onClick={()=> web_works()}>Web</button>
+            <button onClick={()=> bots_works()}>Bots</button>
+        </div>
+        <div className="works-wrapper-1" id="web">
+            <div className="work">
+                <i><WebIcon  sx={{fontSize:50,color:"#FFA97A"}}/></i>
+                <h1>Portfolio website</h1>
+                <button>View More</button>
+            </div>
+            <div className="work">
+                <i><WebIcon  sx={{fontSize:50,color:"#FFA97A"}}/></i>
+                <h1>Company website</h1>
+                <button>View More</button>
+            </div>
+        </div>
+
+        <div className="works-wrapper-2"  id="bots">
+            <div className="work">
+                <i><SmartToyIcon  sx={{fontSize:50,color:"#FFA97A"}}/></i>
+                <h1>Bot Moderator</h1>
+                <button>View More</button>
+                <i className="git"><GitHubIcon  sx={{fontSize:30,color:"#FFA97A"}}/></i>
+            </div>
+            <div className="work">
+                <i><SmartToyIcon  sx={{fontSize:50,color:"#FFA97A"}}/></i>
+                <h1>Bot assistant</h1>
+                <button>View More</button>
+                <i className="git"><GitHubIcon  sx={{fontSize:30,color:"#FFA97A"}}/></i>
+            </div>
+        </div>
+     </Container>
+    )
+}
+
+export default RecentWorks
+
+const Container = styled.div`
+    padding-top: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    .text-wrapper{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            font-style: normal;
+            font-weight: 800;
+            font-size: 30px;
+            color: #FFA97A;
+        }
+        h2{
+            margin-top: 5px;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 15px;
+            color: #767676;
+        }
+    }
+    .btn-wrapper{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button{
+            min-width: 100px;
+            min-height: 35px;
+            background: #FFA97A;
+            color: black;
+            border-radius: 10px;
+            margin: 0 20px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+                &:hover{
+                    background:#17232B;
+                    color: white;
+                    border: 1px solid #FFA97A;
+                }
+        }
+    }
+    .works-wrapper-1{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media(max-width:620px){
+            flex-direction:column;
+        }
+        .work{
+            display: flex;
+            padding: 20px 0;
+            flex-direction:column;
+            justify-content: flex-start;
+            align-items: center;
+            min-width:250px;
+            min-height: 250px;
+            background: #182228;
+            margin: 0 20px;
+            border-radius: 10px;
+            @media(max-width:620px){
+                margin-top: 30px;
+            }
+            h1{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 25px;
+                letter-spacing: 0.4px;
+                color: #FFFFFF;
+            }
+            button{
+                margin-top: 60px;
+                min-width: 138px;
+                min-height: 35px;
+                border-radius: 10px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                border: none;
+                cursor: pointer;
+
+                background: #17232B;
+                border: 1px solid #FFA97A;
+                color: white;
+                &:hover{
+                    background:#FFA97A;
+                    color: black;
+                }
+            }
+        }
+    }
+    .works-wrapper-2{
+        margin-top: 20px;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        @media(max-width:620px){
+            flex-direction:column;
+        }
+        .work{
+            display: flex;
+            padding: 20px 0;
+            flex-direction:column;
+            justify-content: flex-start;
+            align-items: center;
+            min-width:250px;
+            min-height: 250px;
+            background: #182228;
+            margin: 0 20px;
+            border-radius: 10px;
+            @media(max-width:620px){
+                margin-top: 30px;
+            }
+            h1{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 25px;
+                letter-spacing: 0.4px;
+                color: #FFFFFF;
+            }
+            button{
+                margin-top: 60px;
+                min-width: 138px;
+                min-height: 35px;
+                border-radius: 10px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                border: none;
+                cursor: pointer;
+
+                background: #17232B;
+                border: 1px solid #FFA97A;
+                color: white;
+                &:hover{
+                    background:#FFA97A;
+                    color: black;
+                }
+            }
+            .git{
+                margin-top: 20px;
+            }
+        }
+    }
+`

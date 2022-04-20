@@ -5,6 +5,7 @@ import About from '../components/About'
 import styled from 'styled-components'
 import Stack from '../components/Stack'
 import Offers from '../components/Offers'
+import RecentWorks from '../components/RecentWorks'
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
         <About />
         <Stack />
         <Offers />
+        <RecentWorks />
       </Home>
 
   )
