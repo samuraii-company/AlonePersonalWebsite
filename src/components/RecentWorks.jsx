@@ -6,8 +6,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function RecentWorks() {
 
-    const [firstBtn, setFirstBtn] = React.useState(1)
-
     function web_works(){
         const web = document.getElementById('web');
         const bots = document.getElementById('bots');

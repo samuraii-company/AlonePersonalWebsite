@@ -81,7 +81,7 @@ const Container = styled.div`
             background: #182228;
             margin: 0 80px;
             border-radius: 20px;
-            @media(max-width:760px){
+            @media(max-width:769px){
                 margin: 0 10px;
             }
             @media(max-width:620px){

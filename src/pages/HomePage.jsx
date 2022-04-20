@@ -7,6 +7,7 @@ import Stack from '../components/Stack'
 import Offers from '../components/Offers'
 import RecentWorks from '../components/RecentWorks'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 function HomePage() {
   return (
@@ -18,6 +19,7 @@ function HomePage() {
         <Offers />
         <RecentWorks />
         <Contact />
+        <Footer />
       </Home>
 
   )
