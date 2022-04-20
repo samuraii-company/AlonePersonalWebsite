@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import Stack from '../components/Stack'
 import Offers from '../components/Offers'
 import RecentWorks from '../components/RecentWorks'
+import Contact from '../components/Contact'
 
 function HomePage() {
   return (
@@ -16,6 +17,7 @@ function HomePage() {
         <Stack />
         <Offers />
         <RecentWorks />
+        <Contact />
       </Home>
 
   )

@@ -214,6 +214,7 @@ const Container = styled.div`
             }
             .git{
                 margin-top: 20px;
+                cursor: pointer;
             }
         }
     }
