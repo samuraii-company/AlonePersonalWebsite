@@ -6,15 +6,15 @@ import EmailIcon from '@mui/icons-material/Email';
 
 function Contact() {
   return (
-    <Container>
+    <Container id="contact">
         <div className="text-wrapper">
             <h1>Contact me</h1>
             <h2>get in touch</h2>
         </div>
         <div className="social-wrapper">
-            <i><TelegramIcon sx={{fontSize:40,color:"#FFA97A"}}/></i>
-            <i><GitHubIcon sx={{fontSize:40,color:"#FFA97A"}}/></i>
-            <i><EmailIcon sx={{fontSize:40,color:"#FFA97A"}}/></i>
+            <a href="https://t.me/Samuraiii143"><i><TelegramIcon sx={{fontSize:40,color:"#FFA97A"}}/></i></a>
+            <a href="https://github.com/samuraii-company"><i><GitHubIcon sx={{fontSize:40,color:"#FFA97A"}}/></i></a>
+            <a href="mailto:samuraii.project143@gmail.com"><i><EmailIcon sx={{fontSize:40,color:"#FFA97A"}}/></i></a>
         </div>
     </Container>
   )
@@ -54,7 +54,7 @@ const Container = styled.div`
         justify-content:center;
         align-items: center;
         margin-bottom: 60px;
-        i{
+        a{
             padding: 30px 30px;
             margin: 0 50px;
             background: #182228;

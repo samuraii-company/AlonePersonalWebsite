@@ -6,7 +6,7 @@ import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 function Offers() {
 
     return (
-        <Container>
+        <Container id="offers">
             <div className="text-wrapper">
                 <h1>What I Offer</h1>
                 <h2>My Services</h2>
@@ -79,7 +79,7 @@ const Container = styled.div`
             min-width: 300px;
             min-height: 250px;
             background: #182228;
-            margin: 0 80px;
+            margin: 0 50px;
             border-radius: 20px;
             @media(max-width:769px){
                 margin: 0 10px;

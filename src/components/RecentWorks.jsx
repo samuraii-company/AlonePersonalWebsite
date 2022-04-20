@@ -21,7 +21,7 @@ function RecentWorks() {
     }
 
     return (
-     <Container>
+     <Container id="works">
         <div className="text-wrapper">
             <h1>Recent Works</h1>
             <h2>My Portfolio</h2>
@@ -34,12 +34,12 @@ function RecentWorks() {
             <div className="work">
                 <i><WebIcon  sx={{fontSize:50,color:"#FFA97A"}}/></i>
                 <h1>Portfolio website</h1>
-                <button>View More</button>
+                <a href="https://mshevelev.ru"><button>View More</button></a>
             </div>
             <div className="work">
                 <i><WebIcon  sx={{fontSize:50,color:"#FFA97A"}}/></i>
                 <h1>Company website</h1>
-                <button>View More</button>
+                <a href="https://aprs-uf.ru"><button>View More</button></a>
             </div>
         </div>
 
@@ -47,14 +47,15 @@ function RecentWorks() {
             <div className="work">
                 <i><SmartToyIcon  sx={{fontSize:50,color:"#FFA97A"}}/></i>
                 <h1>Bot Moderator</h1>
-                <button>View More</button>
-                <i className="git"><GitHubIcon  sx={{fontSize:30,color:"#FFA97A"}}/></i>
+                <a href="https://github.com/samuraii-company/ChatModeratorbot"><button>View More</button></a>
+                <a className="git" href="https://github.com/samuraii-company/ChatModeratorbot"><i><GitHubIcon  sx={{fontSize:30,color:"#FFA97A"}}/></i></a>
+
             </div>
             <div className="work">
                 <i><SmartToyIcon  sx={{fontSize:50,color:"#FFA97A"}}/></i>
                 <h1>Bot assistant</h1>
-                <button>View More</button>
-                <i className="git"><GitHubIcon  sx={{fontSize:30,color:"#FFA97A"}}/></i>
+                <a href="https://github.com/samuraii-company/Telegram-assistant"><button>View More</button></a>
+                <a className="git" href="https://github.com/samuraii-company/Telegram-assistant"><i><GitHubIcon  sx={{fontSize:30,color:"#FFA97A"}}/></i></a>
             </div>
         </div>
      </Container>
@@ -127,7 +128,7 @@ const Container = styled.div`
             justify-content: flex-start;
             align-items: center;
             min-width:250px;
-            min-height: 250px;
+            min-height: 276px;
             background: #182228;
             margin: 0 20px;
             border-radius: 10px;

@@ -1,25 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 import GitHubIcon from '@mui/icons-material/GitHub';
-import TelegramIcon from '@mui/icons-material/Telegram';
-import EmailIcon from '@mui/icons-material/Email';
 
 function Footer() {
   return (
     <Container>
-        <h1>Alone.</h1>
-        <nav>
-            <a href="#">About</a>
-            <a href="#">Experience</a>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a> 
-        </nav>
         <div className="social-wrapper">
-            <i><TelegramIcon sx={{fontSize:30,color:"black"}}/></i>
-            <i><GitHubIcon sx={{fontSize:30,color:"black"}}/></i>
-            <i><EmailIcon sx={{fontSize:30,color:"black"}}/></i>
+            <a href="https://github.com/samuraii-company/AlonePersonalWebsite"><i><GitHubIcon sx={{fontSize:40,color:"black"}}/></i></a>
         </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#stack">Experience</a>
+            <a href="#offers">Services</a>
+            <a href="#works">Portfolio</a>
+            <a href="#contact">Contact</a> 
+        </nav>
         <h2>© Alone. All right reserved </h2>
     </Container>
   )
@@ -49,6 +44,7 @@ const Container = styled.div`
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin-bottom: 60px;
         a{
             padding: 0 36px;
             text-decoration: none;
@@ -56,6 +52,9 @@ const Container = styled.div`
             font-style: normal;
             font-weight: 600;
             font-size: 20px;
+            &:hover{
+                text-decoration: underline;
+            }
             @media(max-width: 700px){
                 padding: 0 20px;
             }
@@ -74,8 +73,7 @@ const Container = styled.div`
         display: flex;
         justify-content:center;
         align-items: center;
-        margin-bottom: 60px;
-        i{
+        a{
             margin: 0 30px;
             cursor: pointer;
             @media(max-width:520px){

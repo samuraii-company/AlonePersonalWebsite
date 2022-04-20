@@ -5,7 +5,7 @@ import styled from 'styled-components'
 function Stack() {
 
     return (
-        <Container>
+        <Container id="stack">
             <div className="text-wrapper">
                 <h1>My Experience</h1>
                 <h2>My Abilities</h2>
@@ -14,7 +14,7 @@ function Stack() {
                 <div className="stack">
                     <div className="texts">
                         <h1>Backend Developer</h1>
-                        <p>Mote than 3 years</p>
+                        <p>More than 3 years</p>
                     </div>
                     <div className="stack_tech">
                         <div className="persent">
@@ -42,7 +42,7 @@ function Stack() {
                 <div className="stack">
                     <div className="texts">
                         <h1>Frontend Developer</h1>
-                        <p>Mote than 1 years</p>
+                        <p>More than 1 years</p>
                     </div>
                     <div className="stack_tech">
                         <div className="persent">
@@ -113,7 +113,7 @@ const Container = styled.div`
             min-width: 300px;
             min-height: 250px;
             background: #182228;
-            margin: 0 80px;
+            margin: 0 50px;
             border-radius: 20px;
             @media(max-width:769px){
                 margin: 0 10px;

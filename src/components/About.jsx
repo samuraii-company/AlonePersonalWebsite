@@ -8,7 +8,7 @@ import Experience from '../components/Experience'
 
 function About() {
   return (
-    <Container>
+    <Container id="about">
         <div className="text-wrapper">
             <h1>About me</h1>
             <h2>My Intro</h2>
@@ -38,7 +38,7 @@ function About() {
                         icon={<ApartmentIcon sx={{color:"#FFA97A"}}/>}
                     />
                 </div>
-                <button>Contact Me</button>
+                <a href="https://t.me/Samuraiii143"><button>Contact Me</button></a>
             </div>
         </div>
     </Container>
@@ -194,6 +194,9 @@ const Container = styled.div`
                     border: 1px solid #FFA97A;
                     color: white;
                 }
+                @media(max-width: 900px) {
+                margin-left: 0px;
+            }
             }
         }
     }

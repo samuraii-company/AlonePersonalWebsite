@@ -6,7 +6,7 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 
 function Hero() {
   return (
-    <Container>
+    <Container id="hero">
         <div className="wrapper">
             <div className="hero_text">
                 <h1>Hello, I'm</h1>
@@ -14,8 +14,8 @@ function Hero() {
                 <h3>Full-Stack Developer</h3>
             </div>
             <div className="social-wrapper">
-                <i><GitHubIcon sx={{fontSize:30,color:"white"}}/></i>
-                <i><TelegramIcon sx={{fontSize:30,color:"white"}}/></i>
+                <a href="https://github.com/samuraii-company"><i><GitHubIcon sx={{fontSize:30,color:"white"}}/></i></a>
+                <a href="https://t.me/Samuraiii143"><i><TelegramIcon sx={{fontSize:30,color:"white"}}/></i></a>
             </div>
             <div className="image-wrapper">
                 <img src="images/main.webp" alt="" />

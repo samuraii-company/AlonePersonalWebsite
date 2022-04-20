@@ -7,15 +7,15 @@ function Header() {
     const [burgerMenu, setBurgerMenu] = React.useState(false);
     return (
         <Container>
-            <h1>Alone.</h1>
+            <a href="#hero">Alone.</a>
             <nav>
-                <a href="#">About</a>
-                <a href="#">Experience</a>
-                <a href="#">Services</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a> 
+                <a href="#about">About</a>
+                <a href="#stack">Experience</a>
+                <a href="#offers">Services</a>
+                <a href="#works">Portfolio</a>
+                <a href="#contact">Contact</a> 
             </nav>
-            <button className='contactbtn'>Contact me</button>
+            <a href="https://t.me/Samuraiii143"><button className='contactbtn'>Contact me</button></a>
             <MenuWrapper>
                 <CustomMenu onClick={()=> setBurgerMenu(true)}/>
             </MenuWrapper>
@@ -23,16 +23,18 @@ function Header() {
                 <CloseWrapper>
                     <CustomClose onClick={()=> setBurgerMenu(false)}/>
                 </CloseWrapper>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-                <button>Contact me</button>
+                <li><a href="#about">About</a></li>
+                <li><a href="#stack">Experience</a></li>
+                <li><a href="#offers">Services</a></li>
+                <li><a href="#works">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <a href="https://t.me/Samuraiii143"><button>Contact me</button></a>
+
             </BurgerNav>
         </Container>
     )
 }
+
 
 export default Header
 
@@ -59,13 +61,14 @@ const Container = styled.div`
         }
     }
 
-    h1{
-        color: white;
-        background: none;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-    }
+        a{
+            color: white;
+            background: none;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            text-decoration: none;
+        }
 
     nav{
         a{

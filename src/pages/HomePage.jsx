@@ -13,12 +13,12 @@ function HomePage() {
   return (
       <Home>
         <Header />
-        <Hero />
-        <About />
-        <Stack />
-        <Offers />
-        <RecentWorks />
-        <Contact />
+        <Hero/>
+        <About/>
+        <Stack/>
+        <Offers/>
+        <RecentWorks/>
+        <Contact/>
         <Footer />
       </Home>
 
