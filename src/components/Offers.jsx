@@ -27,9 +27,9 @@ function Offers() {
                         <i><CheckCircleOutlineIcon sx={{fontSize:20,color:"#FFA97A"}}/></i>
                         <h1>In Company</h1>
                     </div>
-                    <h1 className="about">You want to launch your website,
-                    you need a new design for your future site?
-                    Contact me and we will discuss your needs and desires. </h1>
+                    <h1 className="about">You are looking for a developer to join the team,
+                    i can develop both the server side and the client
+                    Contact me and we will discuss your needs and desires.</h1>
                     <button>Contact Me</button>
                 </div>
             </div>
