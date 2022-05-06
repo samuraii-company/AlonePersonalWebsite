@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-function Experience({icon, title, about}) {
+function Experience({ icon, title, about }) {
   return (
     <div className="exp">
-        <i>{icon}</i>
-        <h1>{title}</h1>
-        <h2>{about}</h2>
+      <i>{icon}</i>
+      <h1>{title}</h1>
+      <h2>{about}</h2>
     </div>
-)
+  );
 }
 
-export default Experience
+export default Experience;
