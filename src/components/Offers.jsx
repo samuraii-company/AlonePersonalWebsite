@@ -18,8 +18,7 @@ function Offers() {
             <h1>Freelance</h1>
           </div>
           <h1 className="about">
-            You want to launch your website, you need a new design for your
-            future site? Contact me and we will discuss your needs and desires.{" "}
+            You want to launch your project, you need a new web site? Contact me and we will discuss your needs and desires.
           </h1>
           <a href="https://t.me/Samuraiii143">
             <button>Contact me</button>
