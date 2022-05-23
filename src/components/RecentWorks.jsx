@@ -77,8 +77,8 @@ function RecentWorks() {
           <i>
             <WebIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
           </i>
-          <h1>Alone website</h1>
-          <a href="/">
+          <h1>Nft Demo Project</h1>
+          <a href="https://nft-project-demo-delta.vercel.app/">
             <button>View</button>
           </a>
         </div>
