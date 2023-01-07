@@ -17,7 +17,7 @@ function Stack() {
           <div className="stack_tech">
             <div className="persent">
               <h1>Python</h1>
-              <p>90%</p>
+              <p>95%</p>
             </div>
             <input
               className="meter"
@@ -26,7 +26,23 @@ function Stack() {
               max="100"
               id="r"
               step="1"
-              value="90"
+              value="95"
+              disabled
+            />
+          </div>
+          <div className="stack_tech">
+            <div className="persent">
+              <h1>FastAPI</h1>
+              <p>95%</p>
+            </div>
+            <input
+              className="meter"
+              type="range"
+              min="0"
+              max="100"
+              id="r"
+              step="1"
+              value="95"
               disabled
             />
           </div>
@@ -43,22 +59,6 @@ function Stack() {
               id="r"
               step="1"
               value="90"
-              disabled
-            />
-          </div>
-          <div className="stack_tech">
-            <div className="persent">
-              <h1>FastAPI</h1>
-              <p>75%</p>
-            </div>
-            <input
-              className="meter"
-              type="range"
-              min="0"
-              max="100"
-              id="r"
-              step="1"
-              value="75"
               disabled
             />
           </div>

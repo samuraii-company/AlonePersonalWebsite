@@ -12,7 +12,7 @@ function Contact() {
         <h2>get in touch</h2>
       </div>
       <div className="social-wrapper">
-        <a href="https://t.me/Samuraiii143">
+        <a href="https://t.me/samuraii143">
           <i>
             <TelegramIcon sx={{ fontSize: 40, color: "#FFA97A" }} />
           </i>

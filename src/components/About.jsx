@@ -24,7 +24,7 @@ function About() {
           <div className="exp-wrapper">
             <Experience
               title="Experience"
-              about="3+ years"
+              about="4+ years"
               icon={<BusinessCenterIcon sx={{ color: "#FFA97A" }} />}
             />
             <Experience
@@ -34,11 +34,11 @@ function About() {
             />
             <Experience
               title="Companys"
-              about="2+"
+              about="3+"
               icon={<ApartmentIcon sx={{ color: "#FFA97A" }} />}
             />
           </div>
-          <a href="https://t.me/Samuraiii143">
+          <a href="https://t.me/samuraii143">
             <button>Contact Me</button>
           </a>
         </div>
