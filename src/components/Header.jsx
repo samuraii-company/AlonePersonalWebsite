@@ -15,7 +15,7 @@ function Header() {
         <a href="#works">Portfolio</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a href="https://t.me/Samuraiii143">
+      <a href="https://t.me/samuraii143">
         <button className="contactbtn">Contact me</button>
       </a>
       <MenuWrapper>
