@@ -20,7 +20,7 @@ function Offers() {
           <h1 className="about">
             You want to launch your project, you need a new web site? Contact me and we will discuss your needs and desires.
           </h1>
-          <a href="https://t.me/Samuraiii143">
+          <a href="https://t.me/samuraii143">
             <button>Contact me</button>
           </a>
         </div>
