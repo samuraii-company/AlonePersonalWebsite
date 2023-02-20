@@ -40,7 +40,7 @@ function Header() {
         <li>
           <a href="#contact">Contact</a>
         </li>
-        <a href="https://t.me/Samuraiii143">
+        <a href="https://t.me/samuraii143">
           <button>Contact me</button>
         </a>
       </BurgerNav>
