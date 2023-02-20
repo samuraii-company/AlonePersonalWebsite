@@ -35,7 +35,7 @@ function Offers() {
             You are looking for a developer to join the team, i can develop both
             the server side and the client Contact me and we will discuss this.
           </h1>
-          <a href="https://t.me/Samuraiii143">
+          <a href="https://t.me/samuraii143">
             <button>Contact me</button>
           </a>
         </div>
