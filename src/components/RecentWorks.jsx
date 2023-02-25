@@ -144,6 +144,20 @@ function RecentWorks() {
       </div>
 
       <div className="works-wrapper-3" id="bots">
+      <div className="work">
+          <i>
+            <WebIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
+          </i>
+          <h1>Password Generator</h1>
+          <a
+            className="git"
+            href="https://github.com/samuraii-company/PasswordGenerator"
+          >
+            <i>
+              <GitHubIcon sx={{ fontSize: 40, color: "#FFA97A" }} />
+            </i>
+          </a>
+        </div>
         <div className="work">
           <i>
             <SmartToyIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
@@ -331,7 +345,7 @@ const Container = styled.div`
   .works-wrapper-3 {
     margin-top: 30px;
     display: none;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
     @media (max-width: 1200px) {
       grid-template-columns: 1fr 1fr;
