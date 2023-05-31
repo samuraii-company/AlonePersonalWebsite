@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TelegramIcon from "@mui/icons-material/Telegram";
-import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Contact() {
   return (
@@ -22,9 +22,9 @@ function Contact() {
             <GitHubIcon sx={{ fontSize: 40, color: "#FFA97A" }} />
           </i>
         </a>
-        <a href="mailto:samuraii.project143@gmail.com">
+        <a href="https://www.linkedin.com/in/just-alone/">
           <i>
-            <EmailIcon sx={{ fontSize: 40, color: "#FFA97A" }} />
+            <LinkedInIcon sx={{ fontSize: 40, color: "#FFA97A" }} />
           </i>
         </a>
       </div>

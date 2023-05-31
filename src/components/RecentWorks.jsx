@@ -50,17 +50,8 @@ function RecentWorks() {
           <i>
             <WebIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
           </i>
-          <h1>Customer website</h1>
-          <a href="https://mshevelev.ru">
-            <button>View</button>
-          </a>
-        </div>
-        <div className="work">
-          <i>
-            <WebIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
-          </i>
-          <h1>Company website</h1>
-          <a href="https://aprs-uf.ru">
+          <h1>Tour Travel website</h1>
+          <a href="https://bear-angle.vercel.app/">
             <button>View</button>
           </a>
         </div>
@@ -248,7 +239,7 @@ const Container = styled.div`
   .works-wrapper-1 {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
     @media (max-width: 1200px) {
       grid-template-columns: 1fr 1fr;

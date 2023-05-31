@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TelegramIcon from "@mui/icons-material/Telegram";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Hero() {
   return (
@@ -21,6 +22,11 @@ function Hero() {
           <a href="https://t.me/samuraii143">
             <i>
               <TelegramIcon sx={{ fontSize: 30, color: "white" }} />
+            </i>
+          </a>
+          <a href="https://www.linkedin.com/in/just-alone/">
+            <i>
+              <LinkedInIcon sx={{ fontSize: 30, color: "white" }} />
             </i>
           </a>
         </div>
