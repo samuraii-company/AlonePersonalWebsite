@@ -72,7 +72,7 @@ function Stack() {
           <div className="stack_tech">
             <div className="persent">
               <h1>HTML</h1>
-              <p>70%</p>
+              <p>90%</p>
             </div>
             <input
               className="meter"
@@ -81,7 +81,7 @@ function Stack() {
               max="100"
               id="r"
               step="1"
-              value="70"
+              value="90"
               disabled
             />
           </div>
@@ -104,7 +104,7 @@ function Stack() {
           <div className="stack_tech">
             <div className="persent">
               <h1>React</h1>
-              <p>60%</p>
+              <p>80%</p>
             </div>
             <input
               className="meter"
@@ -113,7 +113,7 @@ function Stack() {
               max="100"
               id="r"
               step="1"
-              value="60"
+              value="80"
               disabled
             />
           </div>

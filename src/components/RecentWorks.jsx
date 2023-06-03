@@ -59,22 +59,21 @@ function RecentWorks() {
           <i>
             <WebIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
           </i>
-          <h1>Crypto website</h1>
-          <a href="https://alone-crypto-project-demo.vercel.app">
+          <h1>Factory website</h1>
+          <a href="https://vyshivakin.vercel.app/">
             <button>View</button>
           </a>
         </div>
-        <div className="work">
+        {/* <div className="work">
           <i>
             <WebIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
           </i>
-          <h1>Nft Demo Project</h1>
-          <a href="https://nft-project-demo-delta.vercel.app/">
+          <h1>Crypto token website</h1>
+          <a href="https://alone-crypto-project-demo.vercel.app">
             <button>View</button>
           </a>
-        </div>
+        </div> */}
       </div>
-
       <div className="works-wrapper-2" id="backend">
         <div className="work">
           <i>
@@ -239,7 +238,7 @@ const Container = styled.div`
   .works-wrapper-1 {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 
     @media (max-width: 1200px) {
       grid-template-columns: 1fr 1fr;
