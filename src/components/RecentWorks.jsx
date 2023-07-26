@@ -51,7 +51,7 @@ function RecentWorks() {
             <WebIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
           </i>
           <h1>Factory website</h1>
-          <a href="https://vyshivakin.vercel.app/">
+          <a href="http://185.43.4.205">
             <button>View</button>
           </a>
         </div>
@@ -69,7 +69,7 @@ function RecentWorks() {
             <WebIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
           </i>
           <h1>Clothing constructor</h1>
-          <a href="https://outerkit-constructor.vercel.app/">
+          <a href="https://outerkit.shop">
             <button>View</button>
           </a>
         </div>
