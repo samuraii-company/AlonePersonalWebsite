@@ -50,8 +50,8 @@ function RecentWorks() {
           <i>
             <WebIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
           </i>
-          <h1>Factory website</h1>
-          <a href="http://185.43.4.205">
+          <h1>Vyshivakin</h1>
+          <a href="https://vyshivkamsk.ru">
             <button>View</button>
           </a>
         </div>
@@ -59,8 +59,8 @@ function RecentWorks() {
           <i>
             <WebIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
           </i>
-          <h1>Tour Travel website</h1>
-          <a href="https://bear-angle.ru/">
+          <h1>Educate ecommerce website</h1>
+          <a href="https://educate-t.ru">
             <button>View</button>
           </a>
         </div>
@@ -68,8 +68,8 @@ function RecentWorks() {
           <i>
             <WebIcon sx={{ fontSize: 50, color: "#FFA97A" }} />
           </i>
-          <h1>Clothing constructor</h1>
-          <a href="https://outerkit.shop">
+          <h1>Educate company website</h1>
+          <a href="https://secure-t.ru">
             <button>View</button>
           </a>
         </div>
